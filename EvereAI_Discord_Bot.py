@@ -81,7 +81,7 @@ class MyDiscordBot(discord.Client):
     
 
     # Actually loads the memory that was obtained from the previous def
-    def _load_memory(self, context_key):
+    def _load_memory(self, context_key, user):
         """
         Loads the conversation history from a file. If the file doesn't exist,
         it initializes the memory with the starting messages.
