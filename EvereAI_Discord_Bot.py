@@ -4,8 +4,10 @@ import asyncio
 from collections import deque
 import json
 from dotenv import load_dotenv
-import data as ea
 import datetime as dt
+
+
+import data as ea
 import llama_runner as lr
 
 

@@ -5,6 +5,7 @@ class LlamaRunnerDiscord:
     def run_llama(full_prompt = "Hello? Whats your name?"):
 
         model_path = "models/evere8b-u3-base.gguf"
+        #model_path = "models/llama3.2.gguf"
         context_size = 16000
         # full_prompt = "Hello? Whats your name?"
 
